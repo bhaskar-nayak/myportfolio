@@ -1,0 +1,71 @@
+/* Container for certificate section */
+.certificate-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.certificate-header {
+    font-size: 2rem;
+    font-weight: bold;
+   
+}
+
+/* Flexbox container specific to certificate details */
+.certificate-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Optional: adds space between items */
+}
+
+.certificate-item {
+    flex: 1 1 calc(100% - 30px); /* Full width minus gap */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Text styles within certificates */
+.certificate-text {
+    margin-bottom: 0.5rem;
+    font-weight: 100;
+    font-size: 0.875rem;
+    line-height: 1.2;
+}
+.certificate-bold-date {
+    font-weight: 400;
+}
+
+.certificate-header-description {
+    font-weight: 400;
+}
+
+/* Responsive styles */
+@media (max-width: 575px) {
+    .certificate-header {
+        font-size: 2rem;
+    }
+
+    .certificate-text {
+        font-size: 0.895rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .certificate-header {
+        font-size: 2rem;
+    }
+
+    .certificate-text {
+        font-size: 0.825rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .certificate-header {
+        font-size: 2rem;
+    }
+
+    .certificate-text {
+        font-size: 1.1rem;
+    }
+}

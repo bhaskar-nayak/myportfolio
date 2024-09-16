@@ -1,0 +1,39 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.skill-text {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.box_skills {
+    background-color: rgb(4, 0, 0);
+    color: rgb(218, 223, 222);
+    padding: 8px 14px;
+    border-radius: 1rem;
+    text-align: center;
+    min-width: 100px; /* Ensure some width even if content is short */
+}
+/* Responsive adjustments for Skills Section */
+@media (max-width: 575.98px) { /* Mobile phones */
+    .box_skills {
+        font-size: 0.775rem;
+        padding: 5px 9px;
+    }
+}
+/* Responsive adjustments */
+@media (min-width: 768px) {
+    .box_skills {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .box_skills {
+        font-size: 1rem;
+    }
+}

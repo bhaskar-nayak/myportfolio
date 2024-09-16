@@ -1,0 +1,55 @@
+/* src/components/NavStyle/Footer.css */
+* {
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Remove position: sticky and bottom: 0 */
+.footer {
+  /* background: linear-gradient(to right, rgba(167, 187, 198, 0.8), rgba(198, 221, 233, 0.8)); */
+  background: white;
+  color: black;
+  padding: 20px 0;
+  width: 100%;
+  /* Remove the following lines */
+  /* position: sticky; */
+  /* bottom: 0; */
+}
+
+.footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-content p {
+  margin: 0;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.footer-links li {
+  display: inline;
+}
+
+.footer-links a {
+  color: rgb(8, 1, 1);
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}

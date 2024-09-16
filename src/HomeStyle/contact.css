@@ -1,0 +1,80 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 20px;
+}
+
+.contact-header {
+    background: black;
+    border-radius: 1rem;
+    color: white;
+    padding: 8px;
+    font-size: 1.2rem;
+    display: inline-block;
+}
+
+.contact-title {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+.contact-description {
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+.description-color {
+    text-decoration: none; /* Remove underline */
+    color: rgb(14, 14, 208); /* Set initial color if necessary */
+}
+
+.description-color:hover {
+    color: rgb(247, 54, 20); /* Change to your desired color */
+    font-weight: 400;
+}
+.email-text{
+    font-weight: 100;
+}
+.email-head{
+    font-weight: 400;
+}
+/* Responsive design for tablets and smaller screens */
+@media (max-width: 768px) {
+    .contact-header {
+        font-size: 1.25rem;
+    }
+
+    .contact-title {
+        font-size: 2.5rem;
+    }
+
+    .contact-description {
+        font-size: 0.875rem;
+    }
+    .email-text{
+        font-size: 0.875rem;
+    }
+}
+
+/* Responsive design for mobile screens */
+@media (max-width: 480px) {
+    .contact-header {
+        font-size: 1rem;
+    }
+
+    .contact-title {
+        font-size: 2rem;
+    }
+
+    .contact-description {
+        font-size: 0.75rem;
+    }
+    .email-text{
+        font-size: 0.75rem;
+    }
+}

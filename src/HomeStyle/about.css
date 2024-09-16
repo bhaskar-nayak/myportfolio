@@ -1,0 +1,52 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.text_about {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.text_responsive {
+    font-weight: 100;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Apply underline and dark color */
+.highlight-underline {
+    text-decoration: underline;
+    text-decoration-color: rgb(16, 15, 14);
+    font-weight: 400;
+    color: #000;
+}
+/* Responsive adjustments for About Section */
+@media (max-width: 575.98px) { /* Mobile phones */
+    .text_responsive {
+        font-size: 0.875rem;
+        line-height: 1.4;
+    }
+}
+/* Responsive adjustments */
+@media (min-width: 768px) {
+    .text_responsive {
+        font-size: 1.125rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .text_responsive {
+        font-size: 1.2rem;
+    }
+}

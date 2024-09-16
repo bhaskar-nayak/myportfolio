@@ -1,0 +1,11 @@
+
+.navbar-bg-white-smoke{
+    background: rgba(244, 246, 247, 0.8);
+}
+.nav-link:hover{
+    color: rgb(13, 2, 2);
+    font-weight: 500;
+}
+.homeNav:hover{
+    color: rgb(33, 11, 11);
+}

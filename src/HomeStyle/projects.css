@@ -1,0 +1,177 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.project-gif img {
+    margin-top: 5px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.project-details {
+    flex: 1;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.project-date {
+    font-size: 1rem;
+    font-weight: 100;
+    color: #110101;
+    margin-bottom: 1rem;
+}
+
+.project-description {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.tech-badge {
+    background-color: rgba(243, 243, 243, 0.847);
+    color: rgb(12, 3, 3);
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 0.875rem;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-dark {
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 9px;
+    border: none;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-dark:hover {
+    background-color: #333;
+}
+
+.btn-light {
+    background-color: white;
+    color: black;
+    padding: 8px 16px;
+    border-radius: 9px;
+    border: 1px solid #ddd;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-light:hover {
+    background-color: #c3ceb3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 575.98px) { /* Mobile phones */
+    .project-title {
+        font-size: 1.2rem;
+    }
+
+    .project-date,
+    .project-description {
+        font-size: 0.875rem;
+    }
+
+    .tech-badge {
+        font-size: 0.75rem;
+        padding: 4px 8px;
+    }
+
+    .btn-dark, .btn-light {
+        padding: 6px 12px;
+        font-size: 0.75rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { /* Smaller tablets */
+    .project-title {
+        font-size: 1.3rem;
+    }
+
+    .project-date,
+    .project-description {
+        font-size: 0.9rem;
+    }
+
+    .tech-badge {
+        font-size: 0.8rem;
+        padding: 5px 9px;
+    }
+
+    .btn-dark, .btn-light {
+        padding: 7px 13px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { /* Tablets */
+    .project-title {
+        font-size: 1.4rem;
+    }
+
+    .project-date,
+    .project-description {
+        font-size: 1rem;
+    }
+
+    .tech-badge {
+        font-size: 0.875rem;
+        padding: 6px 10px;
+    }
+
+    .btn-dark, .btn-light {
+        padding: 8px 14px;
+        font-size: 0.875rem;
+    }
+}
+
+@media (min-width: 992px) { /* Desktops */
+    .project-title {
+        font-size: 1.5rem;
+    }
+
+    .project-date,
+    .project-description {
+        font-size: 1rem;
+    }
+
+    .tech-badge {
+        font-size: 0.875rem;
+        padding: 6px 10px;
+    }
+
+    .btn-dark, .btn-light {
+        padding: 8px 16px;
+        font-size: 0.875rem;
+    }
+}

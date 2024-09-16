@@ -1,0 +1,80 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 20px;
+}
+
+.education-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.education-content {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 1rem; /* Add spacing between items */
+}
+
+.college-logos {
+    width: 60px;
+    height: auto; /* Maintain aspect ratio */
+}
+
+.collage-name {
+    font-size: 1.235rem;
+    font-weight: 500;
+    margin: 0;
+}
+.college-link{
+    text-decoration: none;
+    color: inherit;
+}
+.college-link:hover{
+    color: rgb(216, 92, 92);
+}
+.course-name {
+    font-size: 1.125rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.passout-text {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+/* Responsive design for tablets and smaller screens */
+@media (max-width: 768px) {
+    .education-content {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: flex-start;
+    }
+
+    .college-logos {
+        width: 50px; /* Adjust logo size for smaller screens */
+    }
+
+    .collage-name, .course-name, .passout-text {
+        font-size: 1rem; /* Adjust text size for smaller screens */
+    }
+}
+
+/* Responsive design for mobile screens */
+@media (max-width: 480px) {
+    .college-logos {
+        width: 40px; /* Further adjust logo size for very small screens */
+    }
+
+    .collage-name, .course-name, .passout-text {
+        font-size: 0.875rem; /* Further adjust text size */
+    }
+}
